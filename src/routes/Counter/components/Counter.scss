@@ -256,12 +256,9 @@ a:hover{
 
 // MOBILE :::::::::::::
 // ====================
-// VIEWPORT < 800px
+// VIEWPORT < 1024px
+// turn off video...
 @media (max-width: 800px) {
-  .main {
-    margin-top: 8.5em;
-  }
-
   video { 
     display: none;
   }
@@ -276,12 +273,13 @@ a:hover{
   }
 }
 
-// VIEWPORT < 600 
-// @media (max-width: 600px) {
-//   .main {
-//     margin-top: 5em;
-//   }
-// }
+// VIEWPORT < 800px
+@media (max-width: 800px) {
+  .main {
+    margin-top: 8.5em;
+  }
+}
+
 
 // VIEWPORT < 569px
 @media (max-width: 569px) {
