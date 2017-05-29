@@ -1,5 +1,17 @@
+// color vars
+$red_main: #D44942;
+$gray_main: gray;
+$beige_main: #FFF8DC;
+$black_main: black;
+
+// font-size
+$fine_print: 0.75em;
+$text_print: 1.375rem;
+$header_print: 2.5rem;
+$large_print: 3rem;
+
 .bizcard {
-  background-color: #FFF8DC;
+  background-color: $beige_main;
   text-align: center;
   padding: 15px;
   width: 700px;
@@ -13,7 +25,7 @@
 }
 
 .bizcard .row.content{
-  background-color: #FFF8DC;
+  background-color: $beige_main;
   text-align: center;
   padding: 15px;
   width: 100%;
@@ -26,7 +38,7 @@
 }
 
 .bizcard .row.story {
-  font-size: 1.375rem;
+  font-size: $text_print;
   float: left;
   text-align: left;
   padding: 15px 30px;
@@ -60,36 +72,37 @@
   margin: auto 0;
 }
 
-.bizcard .links a:focus,
-.bizcard .links a:hover{
-  color: #D44942;
-  background-color: #FFF8DC;
+.bizcard .links a:hover {
+  color: $red_main;
+  background-color: $beige_main;
   text-decoration: none;
 }
 
-.bizcard .links ul > li{
+.bizcard .links ul > li {
   float: right;
   margin: 0 1rem;
   display: inline-block;
   list-style-type: none;
 }
 
-.bizcard .story a{
+.bizcard .story a {
   background: none;
   padding: 0;
   text-decoration: underline;
 }
 
+// all clicked links launch target blank,
+// so put color back to gray
 .bizcard .story a:focus,
-.bizcard .story a:hover{
-  color: #D44942;
+.bizcard .links a:focus {
+  color: $gray_main;
   text-decoration: underline;
 }
 
 .bizcard .name {
   font-weight: 900;
-  font-size: 2.5rem;
-  color: black;
+  font-size: $header_print;
+  color: $black_main;
   float: left;
 }
 
@@ -102,7 +115,9 @@
     font-size: 22px;
 }
 
-
+// MOBILE :::::::::::::
+// ====================
+// VIEWPORT < 600px
 @media (max-width: 600px) {
   .bizcard {
     background-color: #FFF8DC;
@@ -124,6 +139,7 @@
   }
 }
 
+// VIEWPORT < 385px
 @media (max-width: 385px) {
   .bizcard {
     background-color: #FFF8DC;
@@ -142,6 +158,7 @@
 
   .bizcard .links ul {
     margin: 30px 10px 5px 10px;
+    padding: 0;
   }
 
   .bizcard .links ul>li {
@@ -170,18 +187,20 @@
   justify-content: center;
   -webkit-justify-content: center;
 }
+
 .main {
   font-size: 1.1em;
   font-family: 'Josefin Sans', sans-serif;
   // font-family: 'Alegreya Sans SC', sans-serif;
   /* font-family: 'Tenali Ramakrishna', sans-serif;*/
-  color: gray;
+  color: $gray_main;
 }
+
 body {
   margin: 0;
-  background: #000; 
-  background: #000; 
+  background: $black_main; 
 }
+
 video { 
   position: fixed;
   top: 50%;
@@ -197,29 +216,35 @@ video {
   transition: 1s opacity;
   -webkit-transition: 1s opacity;
 }
+
 .stopfade { 
    opacity: .5;
 }
+
 h1 {
-  font-size: 3rem;
+  font-size: $large_print;
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .3rem;
 }
+
 a {
   display: inline-block;
-  color: gray;
+  color: $gray_main;
   text-decoration: none;
   padding: .5rem;
   transition: .6s background; 
   -webkit-transition: .6s background; 
 }
+
 a:hover{
-  background:rgba(0,0,0,0.9);
+  background: $red_main;
 }
+
 .credit{
-  font-size: 0.75em;
+  font-size: $fine_print;
 }
+
 #footer {
   position: fixed;
   bottom: 0;
@@ -228,13 +253,20 @@ a:hover{
 }
 
 
+// MOBILE :::::::::::::
+// ====================
+// VIEWPORT < 700px
 @media (max-width: 700px) {
   video { 
     display: none;
   }
 
   body {
-    // background-image: url("./endless_planet.jpg");
+    background-image: url("../assets/endless_planet.jpg");
     background-size: cover;
+  }
+
+  #footer {
+    display: none;
   }
 }
