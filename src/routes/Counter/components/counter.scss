@@ -189,6 +189,7 @@ $large_print: 3rem;
 }
 
 .main {
+  margin-top: 15em;
   font-size: 1.1em;
   font-family: 'Josefin Sans', sans-serif;
   // font-family: 'Alegreya Sans SC', sans-serif;
@@ -255,8 +256,12 @@ a:hover{
 
 // MOBILE :::::::::::::
 // ====================
-// VIEWPORT < 700px
-@media (max-width: 700px) {
+// VIEWPORT < 800px
+@media (max-width: 800px) {
+  .main {
+    margin-top: 8.5em;
+  }
+
   video { 
     display: none;
   }
@@ -268,5 +273,19 @@ a:hover{
 
   #footer {
     display: none;
+  }
+}
+
+// VIEWPORT < 600 
+// @media (max-width: 600px) {
+//   .main {
+//     margin-top: 5em;
+//   }
+// }
+
+// VIEWPORT < 569px
+@media (max-width: 569px) {
+  .main {
+    margin-top: 0em;
   }
 }
