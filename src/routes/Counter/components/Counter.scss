@@ -139,8 +139,8 @@ $large_print: 3rem;
   }
 }
 
-// VIEWPORT < 385px
-@media (max-width: 385px) {
+// VIEWPORT < 320px
+@media (max-width: 320px) {
   .bizcard {
     background-color: #FFF8DC;
     text-align: center;
@@ -256,8 +256,8 @@ a:hover{
 
 // MOBILE :::::::::::::
 // ====================
-// VIEWPORT < 800px
-@media (max-width: 800px) {
+// VIEWPORT < 1024px
+@media (max-width: 1024px) {
   .main {
     margin-top: 8.5em;
   }
@@ -276,15 +276,8 @@ a:hover{
   }
 }
 
-// VIEWPORT < 600 
-// @media (max-width: 600px) {
-//   .main {
-//     margin-top: 5em;
-//   }
-// }
-
-// VIEWPORT < 569px
-@media (max-width: 569px) {
+// VIEWPORT < 568px
+@media (max-width: 568px) {
   .main {
     margin-top: 0em;
   }
