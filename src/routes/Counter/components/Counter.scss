@@ -258,7 +258,7 @@ a:hover{
 // ====================
 // VIEWPORT < 1024px
 // turn off video...
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
   video { 
     display: none;
   }
