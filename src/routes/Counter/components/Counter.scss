@@ -275,9 +275,16 @@ a:hover{
   }
 }
 
-// VIEWPORT < 569px
-@media (max-width: 569px) {
+// VIEWPORT < 750px
+@media (max-width: 750px) {
   .main {
     margin-top: 0em;
   }
 }
+
+// // VIEWPORT < 569px
+// @media (max-width: 569px) {
+//   .main {
+//     margin-top: 0em;
+//   }
+// }
