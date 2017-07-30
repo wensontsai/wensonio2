@@ -25,6 +25,8 @@ export const Counter = ({ counter, increment, doubleAsync }) => (
                                 <i className='fa fa-linkedin big-icon'></i></a></li>
                             <li><a href='http://hackers.wenson.io' target='blank'>
                                 <i className='fa fa-newspaper-o big-icon'></i></a></li>
+                            <li><a href='http://reportage.wenson.io' target='blank'>
+                                <i className='fa fa-camera-retro big-icon'></i></a></li>
                         </ul>
                     </div>
                 </div>
