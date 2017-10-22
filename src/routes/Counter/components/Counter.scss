@@ -6,8 +6,9 @@ $black_main: black;
 
 // font-size
 $fine_print: 0.75em;
-$text_print: 1.375rem;
-$header_print: 2.5rem;
+$text_print: 1.15rem;
+$text_print_mobile: 1.0rem;
+$header_print: 2.15rem;
 $large_print: 3rem;
 
 .bizcard {
@@ -15,7 +16,6 @@ $large_print: 3rem;
   text-align: center;
   padding: 15px;
   width: 700px;
-  height: 125px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -185,10 +185,10 @@ $large_print: 3rem;
 
 .main {
   margin-top: 15em;
-  font-size: 1.1em;
-  font-family: 'Josefin Sans', sans-serif;
-  // font-family: 'Alegreya Sans SC', sans-serif;
-  /* font-family: 'Tenali Ramakrishna', sans-serif;*/
+  font-size: 1.0em;
+  // font-family: 'Alegreya Sans SC', sans-serif; 
+  // font-family: 'Tenali Ramakrishna', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   color: $gray_main;
 }
 
@@ -272,6 +272,10 @@ a:hover{
 @media (max-width: 800px) {
   .main {
     margin-top: 8.5em;
+  }
+
+  .bizcard .row.story {
+    font-size: $text_print_mobile;
   }
 }
 

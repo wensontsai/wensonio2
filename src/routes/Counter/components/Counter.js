@@ -25,31 +25,20 @@ export const Counter = ({ counter, increment, doubleAsync }) => (
                                 <i className='fa fa-linkedin big-icon'></i></a></li>
                             <li><a href='http://hackers.wenson.io' target='blank'>
                                 <i className='fa fa-newspaper-o big-icon'></i></a></li>
-                            <li><a href='http://reportage.wenson.io' target='blank'>
-                                <i className='fa fa-camera-retro big-icon'></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div className='row story'>
                     <div className='story'>
-                        <p>Wenson Tsai is a Fullstack Software Engineer and Musician who spends his most
-                            precious moments creating.  Whether building excitement and experiences through code,
-                            product, technology, songwriting, or performance, the focus remains on next-level
-                            innovation and craftsmanship.
+                        <p>Hi there.  Thanks for checking me out.
                         </p>
-                        <p>Previously, he worked in the music industry processing licenses and deals
-                            for all the major players: Google, Apple, Spotify, major music labels, et al.
-                            The software he wrote turned data into royalty checks for everyone whose music
-                            you have ever enjoyed.
+                        <p>I like creating things and working on interesting problems.  
                         </p>
-                        <p>Presently, he works to push model-slicing and toolpathing algorithims toward industry
-                            innovation at MakerBot Industries.  He also writes the <a href='https://www.makerbot.com/print/'
-                            target='blank'>desktop app</a> for 3D-printing dreams to life.
+                        <p>Currently, I am in the 3D-printing space (FDM/FFF), as part of an exciting community of makers, tinkerers, and new manufacturers.  I work on Toolpathing at <a href="https://www.makerbot.com/" target="blank">MakerBot Industries</a>.  Toolpathing is the processing of 3D model files into a set of machine instructions for printers to execute (think of an Etch-A-Sketch).  The final toolpath is affected by features and adjustments - producing the best print (aesthetics/structural integrity) in the best way (speed/accuracy) is usually the goal.  This allows for a lot of creativity and innovation when developing features as Toolpathing Engineers play in a sandbox where computer science, geometry, physics, robotics, sculpture, and line-art swirl together.
                         </p>
-                        <p>Please follow his experiments <a href='http://hackers.wenson.io' target='blank'>here</a>.
+                        <p>Previous to this, I worked in the music industry writing apps that crunched serious data for all the major labels, Spotify, Apple, et al.  The software I wrote calculated and distributed royalty payments to every artist whose music is enjoyed all over the world.
                         </p>
-                        <p>In another life, he was a <a href='https://www.flickr.com/photos/itswenson/'
-                            target='blank'>photographer</a> who traveled and exhibited internationally.
+                        <p>I like collaborating on projects.  If we can work on something, please let me know.
                         </p>
                     </div>
                 </div>
